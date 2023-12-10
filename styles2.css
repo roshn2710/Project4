@@ -1,0 +1,79 @@
+.property-details {
+    display: flex;
+    align-items: center; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 70%; 
+    margin: 10px auto; 
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.property-details .property-image {
+    max-width: 500px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.property-details .property-info {
+    flex-grow: 1; 
+}
+
+.property-details .property-info p {
+    margin: 0; 
+    margin-bottom: 5px; 
+}
+
+body {
+    background-image: url("background122.jpg");
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.center{
+    text-align: center;
+}
+
+
+#updatePropertyForm {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: burlywood;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logout-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #333; 
+    padding: 15px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.logout-button {
+    cursor: pointer;
+    background-color: #e44d26; 
+    color: #fff; 
+    padding: 15px 30px;
+    border: none; 
+    border-radius: 8px; 
+    text-align: center;
+    text-decoration: none; 
+    font-size: 18px; 
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+    width: 8%;
+}
+
+.logout-button:hover {
+    background-color: #d14836;
+}
